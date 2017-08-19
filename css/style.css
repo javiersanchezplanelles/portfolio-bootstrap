@@ -1,0 +1,184 @@
+ body { 
+  padding-top: 70px; 
+  padding: 0;
+}
+
+.navbar {
+  font-size: 1.7em;
+  font-variant: small-caps;
+  word-spacing: 6px;
+  width: 100%;
+  text-align: center;
+}
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.home {
+  background-color: #333333;
+  color: white;
+  padding-top: 50px;
+  height: 100vh; 
+  /*min-height: 100%; 
+  max-height: 100%;*/ }
+
+.about {
+  margin-top: -23px;
+  padding: 2%;
+  padding-top: 50px;
+}
+
+.about p {
+  margin: 10% 0;
+  font-size: 1.2em;
+}
+
+.selfpic {
+  margin: auto;
+}
+
+.intro {
+  visibility: hidden;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  border-bottom: 4px solid #6c9dc6;
+}
+
+img {
+  border-radius: 25px;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #6c9dc6;
+  margin: auto;
+}
+
+.skills {
+  padding: 50px 30px 10px 30px;
+  text-align: center;
+}
+
+.progress-striped,  .progress-bar, .progress {
+  height: 15px;
+  font-size: 50px;
+}
+.portfolio {
+  padding: 1%;
+  padding-top: 50px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: ;
+}
+
+.progress {
+  margin-bottom: 3%;
+}
+.contact {
+  padding-top: 50px;
+}
+
+
+.messageMe {
+  text-align: center;
+}
+
+.contact h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Headers styling */
+h2 {
+  font-family: 'Oswald';
+  margin-bottom: 3%;
+}
+
+h3, p {
+  font-family: 'Bitter';
+}
+
+h1, h4 {
+  font-family: 'Roboto Slab';
+}
+
+h5 {
+  font-family: 'Bree Serif';
+}
+
+/*
+input:focus {
+  outline: none;
+  border-bottom: 1px solid steelblue;
+  box-shadow: 1px 1px 1px lightgray;
+}
+
+input {
+  border-radius: 6px;
+  width: 15%;
+}
+
+button, input, textarea {
+  margin: 10px;
+}
+
+input[type="submit"] {
+  width: 5%;
+  background-color: #6c9dc6;
+  border: none;
+}
+*/
+
+.contactme {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 2% 0%;
+}
+
+.at {
+  font-size: 1.22em;
+  font-weight: bold;
+  color: #6c9dc6;
+}
+textarea:focus {
+  outline: none;
+  border: 1px solid steelblue;
+  box-shadow: 1px 1px 1px lightgray;
+}
+
+footer {
+  height: 100px;
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  padding-top: 1%;
+  margin-top: 1%;
+  font-family: 'Bitter';
+}
+
+.fa-github, .fa-linkedin, .fa-codepen {
+  font-size: 2em;
+  margin: 0 2%;
+  color: #6c9dc6;
+}
+
+.fa:hover {
+  color: #3b6384;
+}
+

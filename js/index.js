@@ -10,6 +10,14 @@ $(function () {
         }
         }});
 });
+
+//Make navbar collapse after being clicked
+
+$("nav").find("li").on("click", "a", function() {
+        $('.navbar-collapse').collapse("toggle");
+      });
+  
+
 // Skills and portfolio animations
 var config = {
         mobile: true,

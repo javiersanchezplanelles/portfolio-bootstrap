@@ -78,14 +78,14 @@ hr.style-two {
   padding-top: 50px;
 }
 
-.flex {
+/*.flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-flex-wrap: ;
 }
+*/
 
 .progress {
   margin-bottom: 3%;

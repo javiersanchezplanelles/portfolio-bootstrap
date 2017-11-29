@@ -1,22 +1,11 @@
 
-//Text intro animations
 $(document).ready(function () {
-$(function () {
-  $('.sayHi').textillate({ 
-    in: { effect: 'fadeInDown', callback: function() {
-      $('.intro').textillate({
-    in: { effect: 'bounceInLeft'}
-  });
-        }
-        }});
-});
 
 //Make navbar collapse after being clicked
 
 $("nav").find("li").on("click", "a", function() {
         $('.navbar-collapse').collapse("toggle");
       });
-  
 
 // Skills and portfolio animations
 var config = {

@@ -37,8 +37,29 @@
   margin: auto;
 }
 
+.sayHi {
+  transform: translateY(-10px);
+  opacity: 0;
+  animation: sayHiAnimation 2s 0.5s forwards;
+}
+
+@keyframes sayHiAnimation {
+  to {
+    transform: translateY(5px);
+    opacity: 1;
+  }
+}
 .intro {
-  visibility: hidden;
+  transform: translateY(70px);
+  opacity: 0;
+  animation: introAnimation 2s 0.5s forwards;
+}
+
+@keyframes introAnimation {
+  to {
+    transform: translateY(10px);
+    opacity: 1;
+  }
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {

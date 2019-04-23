@@ -1,4 +1,4 @@
- body { 
+body { 
   padding-top: 70px; 
   padding: 0;
 }
@@ -19,8 +19,7 @@
   color: white;
   padding-top: 50px;
   height: 100vh; 
-  /*min-height: 100%; 
-  max-height: 100%;*/ }
+}
 
 .about {
   margin-top: -23px;
@@ -99,15 +98,6 @@ hr.style-two {
   padding-top: 50px;
 }
 
-/*.flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-*/
-
 .progress {
   margin-bottom: 3%;
 }
@@ -142,29 +132,6 @@ h1, h4 {
 h5 {
   font-family: 'Bree Serif';
 }
-
-/*
-input:focus {
-  outline: none;
-  border-bottom: 1px solid steelblue;
-  box-shadow: 1px 1px 1px lightgray;
-}
-
-input {
-  border-radius: 6px;
-  width: 15%;
-}
-
-button, input, textarea {
-  margin: 10px;
-}
-
-input[type="submit"] {
-  width: 5%;
-  background-color: #6c9dc6;
-  border: none;
-}
-*/
 
 .contactme {
   font-size: 1.2em;
@@ -202,4 +169,3 @@ footer {
 .fa:hover {
   color: #3b6384;
 }
-
